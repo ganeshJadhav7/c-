@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 int add(int n1, int n2)
@@ -29,4 +30,12 @@ int main()
     cout<<"Addition of three integer numbers : "<<add(a, b, 3)<<endl;
     cout<<"Addition of two floating numbers : "<<add(c, d)<<endl;
 
+    // buitlin functions in c++
+    // pow = power function
+    // sqrt = squarroot function
+    cout<<pow(3, 2)<<endl;
+    cout<<sqrt(16)<<endl;
+
 }
+
+// fuction prototype : if we want to difine a function after the fucntion call, we need to use function prototype.
