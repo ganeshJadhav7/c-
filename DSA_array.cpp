@@ -39,7 +39,7 @@ int main()
 
 
     // Taking elements as a input from user.
-    char vowels[5];
+    /*char vowels[5];
     for(int i=0; i<5; i++)
     {
         cin>>vowels[i];
@@ -49,5 +49,47 @@ int main()
     {
         cout<<vowels[i]<<endl;
     }
-    cout<<endl;
+    cout<<endl;*/
+
+    
+    // calculate a sum of all elements given in a array.
+    /*int array[] = {3, 4, 10, 11};
+    int size = sizeof(array)/sizeof(array[0]);
+    int sum = 0;
+    for(int i=0; i<size; i++)
+    {
+        sum += array[i];
+    }
+    cout<<"Sum of elements : "<<sum;*/
+
+
+    // find the max value out of all the elements in the array.
+    /*int array[] = {3, 7, 18, 9, 11};
+    int size = sizeof(array)/sizeof(array[0]);
+    int max = array[0];
+    for(int i=0; i<size; i++)
+    {
+        if(array[i]>max)
+        {
+            max=array[i];
+        }
+    }
+    cout<<"max ele of array : "<<max;*/
+
+
+    //Linear search
+    //Finding specific element in array.
+    int array[] = {3, 9, 18, 11, 7};
+    int key = 11;
+    int ans = -1;
+    int size = sizeof(array)/sizeof(array[0]);
+
+    for(int i=0; i<size; i++)
+    {
+        if(array[i]==key)
+        {
+            ans = i;
+        }
+    }
+    cout<<ans;
 }
