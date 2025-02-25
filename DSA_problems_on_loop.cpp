@@ -80,13 +80,13 @@ int main()
 
 
     // problem 6. Given two numbers a and b. Find a raise to the power b.
-    int a, b, result=1;
-    cout<<"Enter two numbers : ";
-    cin>>a>>b;
+    // int a, b, result=1;
+    // cout<<"Enter two numbers : ";
+    // cin>>a>>b;
 
-    for(int i=1; i<=b; i++)
-    {
-        result = a * result;
-    }
-    cout<<result;
+    // for(int i=1; i<=b; i++)
+    // {
+    //     result = a * result;
+    // }
+    // cout<<result;
 }

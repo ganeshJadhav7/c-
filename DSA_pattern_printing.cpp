@@ -10,7 +10,7 @@ int main()
             cout<<"*";
         }
         cout<<"\n";
-    }*/
+    }
 
     // pattern 2
     /*int n,m;
